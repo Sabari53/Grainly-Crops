@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+Welcome to Grainly Crops — Your Crop Price Chart Bot
+Project Info
 
-## Project info
+Description: Grainly Crops is a friendly AI-powered chatbot that provides crop price predictions and visualizes price trends for farmers. Using historical crop prices and exogenous factors like rainfall, temperature, and market demand, it delivers interactive charts and insights to help farmers make data-driven decisions.
 
-**URL**: https://lovable.dev/projects/ed017e75-dc30-4352-9f80-dc7af1684aae
+How can I edit this project?
 
-## How can I edit this code?
+There are several ways to edit Grainly Crops:
 
-There are several ways of editing your application.
+Use your preferred IDE
+Clone the repo and work locally. Make sure Node.js & npm are installed:
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ed017e75-dc30-4352-9f80-dc7af1684aae) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Edit files directly on GitHub
 
-**Use GitHub Codespaces**
+Navigate to the file you want to edit.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Click the pencil icon to edit.
 
-## What technologies are used for this project?
+Commit your changes.
 
-This project is built with:
+Use GitHub Codespaces
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Navigate to your repository.
 
-## How can I deploy this project?
+Click Code → Codespaces → New codespace.
 
-Simply open [Lovable](https://lovable.dev/projects/ed017e75-dc30-4352-9f80-dc7af1684aae) and click on Share -> Publish.
+Edit files and commit changes from the Codespace environment.
 
-## Can I connect a custom domain to my Lovable project?
+Technologies used
 
-Yes, you can!
+Grainly Crops is built with:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Vite — Fast frontend tooling
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+TypeScript — Strongly typed JS for safer code
+
+React — UI framework
+
+shadcn-ui — UI components
+
+Tailwind CSS — Styling
+
+Python ML backend — LSTM + Random Forest for crop price prediction
+
+FastAPI — Serves ML predictions via API
+
+OpenAI GPT API — Generates chatbot responses
+
+How to deploy
+
+Run the development server locally with npm run dev.
+
+Build the production version with npm run build.
+
+Deploy on any static hosting or cloud platform.
+
+Custom Domain
+
+Connect your domain via your hosting provider.
+
+Ensure DNS points to your deployed app.
