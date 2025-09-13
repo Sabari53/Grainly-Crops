@@ -5,11 +5,11 @@ Agriculture is the backbone of the Indian economy, but farmers face uncertainty 
 
 💡 Solution
 
-Grainly Crops is an AI-powered chart bot that predicts crop prices using a hybrid LSTM + Random Forest model. It analyzes historical prices, rainfall, temperature, demand trends, and other factors to generate interactive charts and actionable insights. Farmers can query prices for specific crops and locations and get easy-to-understand visualizations and suggestions for optimal selling or storage.
+Grainly Crops is an AI-powered Chart Bot that predicts crop prices using a hybrid LSTM + Random Forest model. It analyzes historical prices, rainfall, temperature, demand trends, and other factors to generate interactive charts and actionable insights. Farmers can query prices for specific crops and locations and get easy-to-understand visualizations and suggestions for optimal selling or storage.
 
 🛠 Project Info
 
-Description: Friendly AI chatbot for farmers that provides crop price predictions and visualizes trends.
+Description: Friendly AI Chart Bot for farmers that provides crop price predictions and visualizes trends.
 
 Features:
 
@@ -62,7 +62,7 @@ Python ML Backend — LSTM + Random Forest Models
 
 FastAPI — Serves ML Predictions via API
 
-OpenAI GPT API — Generates Chatbot Responses
+OpenAI GPT API — Generates Chart Bot Responses
 
 🚀 Deployment
 
